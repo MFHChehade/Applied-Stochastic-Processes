@@ -8,7 +8,7 @@ from random_walk_1d import RandomWalk1D  # Importing the RandomWalk class from r
 np.random.seed(42)  # You can use any integer value as the seed
 
 # Set the number of iterations
-num_iterations = 10000000
+num_iterations = 10000
 
 # Create a RandomWalk object
 random_walk = RandomWalk1D(0.5, 0.5, 0)
