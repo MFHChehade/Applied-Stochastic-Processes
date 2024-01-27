@@ -1,5 +1,5 @@
 import numpy as np
-from dtmc import DTMC
+from chains.dtmc import DTMC
 
 # Provided transition matrix and initial distribution
 transition_matrix = np.array([
