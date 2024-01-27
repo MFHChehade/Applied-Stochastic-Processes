@@ -1,6 +1,6 @@
 from typing import List
 import numpy as np
-from dtmc import DTMC
+from chains.dtmc import DTMC
 
 class StockModel(DTMC):
     def __init__(self, horizon: int, n_episodes: int, initial_price: float, p: float, u: float, d: float):
